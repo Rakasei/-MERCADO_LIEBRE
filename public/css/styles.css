@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
 }
 
 p {
@@ -17,10 +18,11 @@ p {
 }
 
 .logo{
-  width: 200px;
-  margin-left: 40px;
+    width: 50%;
+    margin-left: 40px;
 }
 .buscador{
+    width: 50%;
     margin-left: 30px;
 }
 
@@ -60,18 +62,22 @@ p {
 } 
 
 .precios{
-    font-size: 18px
+    font-size: 18px;
+    display: inline-block;
+    width: 30%;
 }
 
 
 .descuentos_y_descripciones{
-    font-size: 16px
+    font-size: 16px;
+    display: inline-block;
+    width: 70%;
 }
 
 /**Footer**/
 
 .footer{
- text-align:center;
+    text-align:center;
 }
 
 /**breakouts para las distintas vistas**/
@@ -102,4 +108,22 @@ p {
     .navBar, .login { display: inline-block; }
 
     .burger-menu { display: none; }
+  }
+
+
+/**Mobile ML3**/
+@media (max-width: 768px) {
+    .article { width: 100%; }
+  }
+
+
+/**Tablet ML3**/
+@media (min-width: 769px) and (max-width: 1024px) {
+    .productos .article { width: 50%; }
+  }
+
+
+/**Desktop ML3**/
+@media (min-width: 1025px) {
+    .productos .article {width: 25%;}
   }

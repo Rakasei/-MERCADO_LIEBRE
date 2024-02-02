@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/public/css/styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>ML5 - Formularios</title>
+</head>
+
+
+<body>
+    <!-- Header -->
+        <header class="header">
+            <img class="logo" src="../public/images/logo-mercado-liebre.svg" alt="logo de marcado liebre">
+
+            <div class="buscador">
+                <input type="text" placeholder="Buscar productos, marcas">
+            </div>
+
+            <p class="compra_en_cuotas">Compra en cuotas y sin tarjeta de credito</p>
+            <nav class="navBar">
+                <ul>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas Oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+                </ul>
+            </nav>
+            <nav class="login">
+                <ul>
+                    <li><a href="register.html" >Crea tu cuenta</a><i class="fa-solid fa-id-card"></i></li>
+                    <li><a href="login.html" >Ingresa</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                    <li><a href="#" >Mis compras</a><i class="fa-solid fa-shop"></i></li>
+                </ul>
+            </nav>
+            <img src="../public/images/img-home-banner.jpg" width="500" alt="imagen de fondo">
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+                </div>
+
+            </header>
+
+    <!-- Main-->
+    <main>
+
+           <!-- Formulario-->
+        <form class="formulario">
+            <h2>Registro de Usuario</h2>
+            
+            <label for="nombre_apellido">Nombre y Apellido:</label>
+            <input type="text" name="nombre_apellido" >
+            
+            <label for="nombre_usuario">Nombre de Usuario:</label>
+            <input type="text" name="nombre_usuario" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" name=" email" required>
+            
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date"  name="fecha_nacimiento" required>
+            
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" name="domicilio" required>
+            
+            <label for="perfil_usuario">Perfil del Usuario:</label>
+            <select id="perfil_usuario" name="perfil_usuario" required>
+                <option value="comprador" >Comprador</option>
+                <option value="vendedor">Vendedor</option>
+            </select>
+            <label for="categorias_interes">Categorías de Interés:</label>
+            <select name="categorias_interes" multiple required>
+                <option value="Electro">Electro</option>
+                <option value="Moda">Moda</option>
+                <option value="Hogar">Hogar</option>
+                <option value="Juguetería">Juguetería</option>
+                <option value="Vida_sana">Vida Sana</option>
+            </select>
+            
+            <label for="foto_usuario">Foto de Usuario:</label>
+            <input type="file" id="foto_usuario" name="foto_usuario" accept="image/*" required>
+            
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            
+
+            <label for="confirmar_password">Confirmar Contraseña:</label>
+            <input type="password" id="confirmar_password" name="confirmar_password" required>
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar Datos</button>
+        </form>
+    </main>
+
+    <!-- Footer-->
+        <footer class="footer">
+            <section id="medios_pago">
+                <h3  >
+                    
+                    Paga con tarjeta o en efectivo
+                    
+                </h3>
+                    <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en  puntos de pago. ¡Y siempre es seguro!</p>
+                
+            </section>
+    
+            <section id="envios">
+                <h3 >
+                  
+                    Envios gratis desde los 2.500
+                    
+                </h3>
+                    <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+                
+            </section>
+    
+            <section id="seguridad">
+                <h3 >
+                    
+                    Seguridad, de principio a fin
+                    
+                </h3>    
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,porque estás siempre protegid@.</p>
+            </section>
+    
+            <section id="derechos-reservados">
+                <h3 >
+                    
+                    Copyright © 1999-2020 MercadoLiebre S.R.L.
+                    
+                </h3>
+        </section>
+    
+        </footer>
+</body>
+
+</html>

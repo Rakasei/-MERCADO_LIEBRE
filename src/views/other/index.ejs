@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
+
 <!-- Include Head -->
 <%- include('../partials/head', {title: 'Inicio'}) %>
+
 <body>
+
 	<!-- Header -->
 	<%- include('../partials/headerNavbar') %>
 	<!-- /Header -->
@@ -17,6 +21,7 @@
 			<div class="col-12">
 				<h2 class="products-title">Basado en tu última visita</h2>
 			</div>
+
 			<!-- Show the "visited" products -->
 			<% productsVisited.forEach(p => { %>
 			 
@@ -41,7 +46,10 @@
 	</div>
 	<!-- /ultima visita -->
 
+
 	<!-- Ofertas -->
+
+
 	<div class="container products-wrapper">
 		<div class="row">
 			<div class="col-12">
@@ -74,5 +82,6 @@
 	<!-- footer -->
 	<%- include('../partials/footer') %>
 	<!-- /footer -->
+	
 </body>	
 </html>

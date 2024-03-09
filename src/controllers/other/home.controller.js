@@ -6,7 +6,7 @@ module.exports = (req,res) =>{
     const productsInSale = products.filter(p => p.category === 'in-sale')
     const productsVisited = products.filter(p => p.category === 'visited')
 
-    res.render('./other/index', {
+    res.render('other/index', {
         productsInSale,
         productsVisited,
         toThousand

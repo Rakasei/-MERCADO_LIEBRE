@@ -8,7 +8,7 @@ module.exports = (req, res) => {
         const products = loadData()
         const productsFilter = products.filter(
             (p) => p.name.toLowerCase().includes(keywords.toLowerCase()) || p.description.toLowerCase().includes(keywords.toLowerCase()))
-        res.render('./other/results', {
+        res.render('other/results.ejs', {
             products: productsFilter,
             keywords,
             toThousand

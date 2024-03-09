@@ -1,3 +1,4 @@
 module.exports = (req,res) =>{
-    res.render('./admin/createProduct')
+    
+    res.render('admin/createProduct.ejs')
 }

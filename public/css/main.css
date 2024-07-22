@@ -1,0 +1,20 @@
+.main {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ebebeb;
+}
+
+.main section {
+    background-color: white;
+
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos_y_descripciones {
+    font-size: 16px;
+}

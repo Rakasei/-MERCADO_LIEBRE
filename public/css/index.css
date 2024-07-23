@@ -8,7 +8,9 @@ Gris claro: #ebebeb;
 Verde: #39b54a; */
 
 
-
+body{
+    background-color:#ebebeb;
+}
 img {
     width: 100%;
 }

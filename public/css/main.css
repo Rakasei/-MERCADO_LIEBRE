@@ -1,0 +1,38 @@
+.main {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ebebeb;
+   
+}
+
+.main section {
+    background-color: white;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+   
+  
+}
+
+.main article{
+    margin-bottom: 10px;
+    background-color: white;
+    
+    
+}
+
+.article{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos_y_descripciones {
+    font-size: 16px;
+}

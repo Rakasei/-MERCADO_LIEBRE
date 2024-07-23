@@ -1,0 +1,55 @@
+.header {
+    background-color: #EAC926;
+     margin: 0;
+    padding: 0;
+}
+
+.nav-header {
+    margin-top: 20px;
+}
+
+.nav-header li a {
+    margin-right: 5px;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+
+}
+
+.burger-menu i {
+    background-color: #1259c3;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+
+}
+
+.compra_en_cuotas {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+
+}
+
+.buscador {
+    margin: 10px;
+
+}
+
+.buscador input {
+    width: 170px;
+}
+
+.logo {
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+}

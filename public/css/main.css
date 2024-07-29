@@ -1,0 +1,65 @@
+.main {
+    margin-top:30px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  
+}
+
+.main section {
+  
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+
+  
+}
+
+.main section h2 {
+    margin-bottom: 15px;
+    
+}
+
+.main article{
+    margin-bottom: 10px;
+    background-color: white;
+    
+    
+}
+
+.article{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+.article i {
+    color:#39b54a;
+    padding:10px;
+    border: 1px solid #39b54a;
+    border-radius:20px;
+    
+}
+
+.titulo_producto{
+    margin-top:20px;
+    color:#666;
+    font-size:16px
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos_y_descripciones {
+    font-size: 16px;
+    color:#39b54a;
+}
+
+@media (min-width: 361px) {
+    .main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+  }
+  
